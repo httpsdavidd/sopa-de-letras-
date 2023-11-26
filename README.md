@@ -1,11 +1,12 @@
 # sopa-de-letras-
+'''
 import random
 import time
 
 def generar_sopa(dificultad):
     if dificultad == "noob":
         palabras = ["Algoritmo", "Instrucciones", "Pseudocodigo", "Variables", "Entero", "lenguaje", "Flotante",
-                    "Constante", "Booleano", "Strings", "Operadores", "listas"]
+                  "Constante", "Booleano", "Strings", "Operadores", "listas"]
     elif dificultad == "decente":
         palabras = ["Condicional", "Input", "Indentacion", "If", "Elif", "Else", "Funcion", "Libreria", "Alcance",
                     "Import", "While", "Break", "Continue", "For", "Rango"]
@@ -120,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
